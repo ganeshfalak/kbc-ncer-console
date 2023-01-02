@@ -1,0 +1,162 @@
+Player's Information
+ Name: mandar
+ Mobile No: 9021947412
+ Branch: computer 
+ Division: b
+
+Player's Information
+ Name: Mohit
+ Mobile No: 249293919
+ Branch: CSE
+ Division: A
+
+Player's Information
+ Name: Ganesh Falak
+ Mobile No: 7507342728
+ Branch: CSE
+ Division: B
+
+Player's Information
+ Name: Ganesh Chandak
+ Mobile No: 2393922819
+ Branch: CSE
+ Division: A
+
+Player's Information
+ Name: asdjh
+ Mobile No: 23432423
+ Branch: sad
+ Division: s
+
+Player's Information
+ Name: das
+ Mobile No: 2332324
+ Branch: sdfdsfs
+ Division: 2
+
+Player's Information
+ Name: as
+ Mobile No: 2323
+ Branch: sd
+ Division: s
+
+Player's Information
+ Name: sdsd
+ Mobile No: 12
+ Branch: sd
+ Division: s
+
+Player's Information
+ Name: dfd
+ Mobile No: 232
+ Branch: fd
+ Division: a
+
+Player's Information
+ Name: sads
+ Mobile No: 123
+ Branch: s
+ Division: a
+
+Player's Information
+ Name: sfdsf
+ Mobile No: 123
+ Branch: sdf
+ Division: a
+
+Player's Information
+ Name: sdfs
+ Mobile No: 12
+ Branch: sad
+ Division: a
+
+Player's Information
+ Name: Superman
+ Mobile No: 1122334455
+ Branch: Saving World
+ Division: S
+
+Player's Information
+ Name: asdas
+ Mobile No: 12
+ Branch: sad
+ Division: s
+
+Player's Information
+ Name: asdsad
+ Mobile No: 123
+ Branch: asdas
+ Division: a
+
+Player's Information
+ Name: adasa
+ Mobile No: 123
+ Branch: sdf
+ Division: a
+
+Player's Information
+ Name: Ganesh Falak
+ Mobile No: 2232
+ Branch: s
+ Division: a
+
+Player's Information
+ Name: Ganesh
+ Mobile No: 1232
+ Branch: sdas
+ Division: a
+
+Player's Information
+ Name: ganesh
+ Mobile No: 233423
+ Branch: s
+ Division: s
+
+Player's Information
+ Name: sadhs
+ Mobile No: 1232
+ Branch: d
+ Division: s
+
+Player's Information
+ Name: Mandar
+ Mobile No: 231248212
+ Branch: CSE
+ Division: A
+
+Player's Information
+ Name: 23
+ Mobile No: 213
+ Branch: sad
+ Division: 2
+
+Player's Information
+ Name: asd
+ Mobile No: 23
+ Branch: sa
+ Division: d
+
+Player's Information
+ Name: sddf
+ Mobile No: 23
+ Branch: s
+ Division: a
+
+Player's Information
+ Name: 2sd
+ Mobile No: 23
+ Branch: sad
+ Division: a
+
+Player's Information
+ Name: asds
+ Mobile No: 123
+ Branch: asd
+ Division: s
+
+Player's Information
+ Name: sada
+ Mobile No: 234
+ Branch: asd
+ Division: s
+
