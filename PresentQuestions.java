@@ -1,4 +1,7 @@
 import java.util.Scanner;
+import java.text.NumberFormat;
+import java.util.Locale;
+import java.util.Currency;
 
 public class PresentQuestions {
 
@@ -6,6 +9,7 @@ public class PresentQuestions {
 
     }
 
+    static NumberFormat numberFormat = NumberFormat.getCurrencyInstance();
     static Scanner scan = new Scanner(System.in);
     int correctAnswerNumber;
 
@@ -50,7 +54,8 @@ public class PresentQuestions {
             // Presenting questions on console
             questionIndexes[count] = queNo;
 
-            System.out.println("This question is for " + rewardsMoney[count]);
+            numberFormat.setCurrency(Currency.getInstance(Locale.UK));
+            System.out.println("This question is for " + numberFormat.format(new Integer(rewardsMoney[count])));
             System.out.println(questions[queNo]);
             System.out.println();
 
