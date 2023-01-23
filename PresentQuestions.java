@@ -55,7 +55,7 @@ public class PresentQuestions {
             questionIndexes[count] = queNo;
 
             numberFormat.setCurrency(Currency.getInstance(Locale.UK));
-            System.out.println("This question is for " + numberFormat.format(new Integer(rewardsMoney[count])));
+            System.out.println("This question is for " + numberFormat.format(Integer.valueOf(rewardsMoney[count])));
             System.out.println(questions[queNo]);
             System.out.println();
 
