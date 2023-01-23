@@ -90,7 +90,7 @@ public class Main {
 
     void helpYourself() {
         System.out.println();
-        execute.readFile("src/help.txt");
+        execute.readFile("help.txt");
         System.out.println();
     }
 
