@@ -32,7 +32,7 @@ public class Player {
 
     public void register() {
         try {
-            FileWriter writer = new FileWriter("src/playerInfo.txt", true);
+            FileWriter writer = new FileWriter("playerInfo.txt", true);
 
             writer.write("Player's Information");
             writer.write("\n Name: " + this.playerName);
