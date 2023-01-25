@@ -50,7 +50,7 @@ public class Player {
 
     public void playerInfo() {
         try {
-            FileReader reader = new FileReader("src/playerInfo.txt");
+            FileReader reader = new FileReader("playerInfo.txt");
             BufferedReader bufferedReader = new BufferedReader(reader);
 
             String line;
