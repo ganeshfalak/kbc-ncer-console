@@ -5,11 +5,13 @@ import java.util.Currency;
 
 public class PresentQuestions {
 
-    PresentQuestions() {
-
+    static String playerName;
+    PresentQuestions(String playerName) {
+        this.playerName = playerName;
     }
 
     static NumberFormat numberFormat = NumberFormat.getCurrencyInstance();
+    static Main execute = new Main();
     static Scanner scan = new Scanner(System.in);
     int correctAnswerNumber;
 
@@ -30,10 +32,10 @@ public class PresentQuestions {
         questions[9] = "Which of the following is not a software development methodology? \n A. Agile \t B. Waterfall \n C. Scrum \t D. Microsoft Powerpoint";
         questions[10] = "Which of the following is not a computer operating system? \n A. Windows \t B. Linux \n C. MacOS \t D. Android";
 
-        showQuestions(questions, rewardsMoney);
+        showQuestions(questions, rewardsMoney, playerName);
     }
 
-    public void showQuestions(String questions[], int rewardsMoney[]) {
+    public void showQuestions(String questions[], int rewardsMoney[], String playerName) {
         int questionIndexes[] = new int[11];
         int count = 0;
 
@@ -55,21 +57,24 @@ public class PresentQuestions {
             questionIndexes[count] = queNo;
 
             numberFormat.setCurrency(Currency.getInstance(Locale.UK));
-            System.out.println("This question is for " + numberFormat.format(Integer.valueOf(rewardsMoney[count])));
-            System.out.println(questions[queNo]);
+            System.out.println("This question is for " + numberFormat.format(new Integer(rewardsMoney[count])));
+            System.out.println((count + 1) + ". " +  questions[queNo]);
             System.out.println();
 
             String answer = scan.nextLine();
 
             System.out.println();
-            System.out.println("Is the answer given by player correct, Supervisor? (y/n) ");
+            System.out.println("computerji, is this the right answer? (y/n) ");
             String supAnswer = scan.nextLine();
             System.out.println();
 
             if(supAnswer.equalsIgnoreCase("n")) {
+                System.out.println("Ahh Noooo...Unfornately your answer is wrong.");
+                System.out.println(execute.getPlayerName() + "has given the wrong answer!");
                 break;
             }
 
+            System.out.println("Aatbhoot yes!!! This is the right answer!\n");
             count++;
         }
 
@@ -85,7 +90,7 @@ public class PresentQuestions {
             i++;
         }
 
-        correctAnswerNumber = i;
+        correctAnswerNumber = ++i;
     }
 
     public int returnNumberOfAnsweredQuestions() {
