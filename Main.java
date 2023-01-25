@@ -10,10 +10,11 @@ import java.io.IOException;
 
 public class Main {
 
+    String playerName;
     static Scanner scan = new Scanner(System.in);
     static Main execute = new Main();
 
-    static PresentQuestions presentQuestions = new PresentQuestions();
+    static PresentQuestions presentQuestions = new PresentQuestions(execute.playerName);
 
     public static void main(String[] args) {
         String inputCommand = "";
@@ -36,6 +37,7 @@ public class Main {
         System.out.println("To start the game, first enter your basic info to register for the game.");
         System.out.print("Player Name: ");
         playerName = scan.nextLine();
+        execute.playerName = playerName;
         System.out.print("Player Mobile No: ");
         playerMobileNo = scan.nextLong();
         scan.nextLine();
@@ -73,12 +75,11 @@ public class Main {
 
     void rewardPlayer(String playerName, int reward) {
         System.out.println();
-        System.out.println(playerName + "has given the wrong answer!");
         if((presentQuestions.returnNumberOfAnsweredQuestions() - 1) == 0) {
             System.out.println("Player " + playerName + " doesn't get any reward. :/");
             System.out.println("Try your luck next time!");
         } else {
-            System.out.println("Player " + playerName + " gets rewarded with $" + reward + " for answering " + (presentQuestions.returnNumberOfAnsweredQuestions() - 1) + " questions.");
+            System.out.println("\b Player " + playerName + " gets rewarded with £" + reward + " for answering " + (presentQuestions.returnNumberOfAnsweredQuestions() - 1) + " questions.");
         }
     }
 
@@ -107,5 +108,9 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public String getPlayerName() {
+        return playerName;
     }
 }
